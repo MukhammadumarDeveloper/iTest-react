@@ -1,9 +1,8 @@
-import { useReduser, useState } from 'react'
+import { useState } from 'react'
 import Questions from './data';
 import './App.css';
 
 function App() {
-  const [enable, setEnable] = useState(false)
 
   function buttonClick(evt) {
     if (evt.target.attributes.iscorrect.value === 'true') {
@@ -31,7 +30,7 @@ function App() {
                   <div className="buttons-list" key={index}>
                     {
                       question.answers.map((answer, id) => (
-                        <button className="answer-btn" iscorrect={String(answer.isTrue)} disabled={enable} onClick={buttonClick} key={id} type="button">{answer.option}) {answer.answerText}</button> 
+                        <button className="answer-btn" iscorrect={String(answer.isTrue)} disabled={false} onClick={buttonClick} key={id} type="button">{answer.option}) {answer.answerText}</button> 
                       ))                          
                     }
                   </div>
