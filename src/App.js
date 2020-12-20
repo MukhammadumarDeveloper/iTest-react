@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Questions from './data';
 import './App.css';
 
