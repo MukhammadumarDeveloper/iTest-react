@@ -1,11 +1,16 @@
+import { useState } from 'react';
 import Questions from './data';
-import './App.css';
+import './App.css'
+
 
 function App() {
+  const resultArray = []
+  const [result, setResult] = useState(0)
 
   function buttonClick(evt) {
     if (evt.target.attributes.iscorrect.value === 'true') {
       evt.target.classList.add('true');
+      resultArray.push(evt.target.value)
     } else {
       evt.target.classList.add('false')
     }
@@ -15,9 +20,13 @@ function App() {
     }
   }
 
+  function nimadir() {
+    setResult((100 * resultArray.length) / Questions.length)
+  }
+
   return (
     <div className="App">
-      <>
+      <div className="container">
         <h1 className="app-name">iTest</h1>
         <ul className="question-list">
 
@@ -38,8 +47,12 @@ function App() {
             })
           }
 
-        </ul>      
-      </>
+        </ul>
+        <div className="result-wrapper">
+          <button className="submit-btn" type="button" onClick={nimadir}>Submit</button>
+          <p className="result-text">{result}%</p>  
+        </div>
+      </div>
     </div>
   )
 }

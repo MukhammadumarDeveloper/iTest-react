@@ -1,20 +1,20 @@
 const questions = [
   {
     id: "1",
-    question: "Question 1?",
+    question: "Question?",
     answers: [
       {
-        answerText: "answer1",
+        answerText: "Answer",
         isTrue: true,
         option: "A"
       },
       {
-        answerText: "answer2",
+        answerText: "Answer",
         isTrue: false,
         option: "B"
       },
       {
-        answerText: "answer3",
+        answerText: "Answer",
         isTrue: false,
         option: "D"
       }
@@ -22,20 +22,20 @@ const questions = [
   },
   {
     id: "2",
-    question: "Question 2?",
+    question: "Question?",
     answers: [
       {
-        answerText: "answer1",
+        answerText: "Answer",
         isTrue: true,
         option: "A"
       },
       {
-        answerText: "answer2",
+        answerText: "Answer",
         isTrue: false,
         option: "B"
       },
       {
-        answerText: "answer3",
+        answerText: "Answer",
         isTrue: false,
         option: "D"
       }
@@ -43,20 +43,20 @@ const questions = [
   },
   {
     id: "3",
-    question: "Question 3?",
+    question: "Question?",
     answers: [
       {
-        answerText: "answer1",
+        answerText: "Answer",
         isTrue: true,
         option: "A"
       },
       {
-        answerText: "answer2",
+        answerText: "Answer",
         isTrue: false,
         option: "B"
       },
       {
-        answerText: "answer3",
+        answerText: "Answer",
         isTrue: false,
         option: "D"
       }
@@ -65,20 +65,20 @@ const questions = [
   
   {
     id: "4",
-    question: "Question 4?",
+    question: "Question?",
     answers: [
       {
-        answerText: "answer1",
+        answerText: "Answer",
         isTrue: true,
         option: "A"
       },
       {
-        answerText: "answer2",
+        answerText: "Answer",
         isTrue: false,
         option: "B"
       },
       {
-        answerText: "answer3",
+        answerText: "Answer",
         isTrue: false,
         option: "D"
       }
