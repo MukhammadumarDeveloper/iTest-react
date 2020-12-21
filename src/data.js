@@ -6,17 +6,17 @@ const questions = [
       {
         answerText: "Answer",
         isTrue: true,
-        option: "A"
+        key: "A"
       },
       {
         answerText: "Answer",
         isTrue: false,
-        option: "B"
+        key: "B"
       },
       {
         answerText: "Answer",
         isTrue: false,
-        option: "D"
+        key: "D"
       }
     ]
   },
@@ -27,17 +27,17 @@ const questions = [
       {
         answerText: "Answer",
         isTrue: true,
-        option: "A"
+        key: "A"
       },
       {
         answerText: "Answer",
         isTrue: false,
-        option: "B"
+        key: "B"
       },
       {
         answerText: "Answer",
         isTrue: false,
-        option: "D"
+        key: "D"
       }
     ]
   },
@@ -48,17 +48,17 @@ const questions = [
       {
         answerText: "Answer",
         isTrue: true,
-        option: "A"
+        key: "A"
       },
       {
         answerText: "Answer",
         isTrue: false,
-        option: "B"
+        key: "B"
       },
       {
         answerText: "Answer",
         isTrue: false,
-        option: "D"
+        key: "D"
       }
     ]
   },
@@ -70,17 +70,17 @@ const questions = [
       {
         answerText: "Answer",
         isTrue: true,
-        option: "A"
+        key: "A"
       },
       {
         answerText: "Answer",
         isTrue: false,
-        option: "B"
+        key: "B"
       },
       {
         answerText: "Answer",
         isTrue: false,
-        option: "D"
+        key: "D"
       }
     ]
   },
