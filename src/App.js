@@ -20,7 +20,7 @@ function App() {
     }
   }
 
-  function nimadir() {
+  function resultFun() {
     setResult((100 * resultArray.length) / Questions.length)
   }
 
@@ -49,7 +49,7 @@ function App() {
 
         </ul>
         <div className="result-wrapper">
-          <button className="submit-btn" type="button" onClick={nimadir}>Submit</button>
+          <button className="submit-btn" type="button" onClick={resultFun}>Submit</button>
           <p className="result-text">{result}%</p>  
         </div>
       </div>
